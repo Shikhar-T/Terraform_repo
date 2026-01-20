@@ -3,7 +3,7 @@ region = "ap-south-1"
 }
 
 resource "aws_instance" "myserver" {
-count =2
+count =1
 ami = "ami-02b8269d5e85954ef"
 instance_type = "t3.micro"
 tags = {
