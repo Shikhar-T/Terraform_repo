@@ -9,3 +9,4 @@ instance_type = "t3.micro"
 tags = {
 Name = "aviz-tf-server"
 }
+}
